@@ -1,0 +1,26 @@
+h1 {
+  align-self: center;
+}
+
+.login-alert {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 20px 10px;
+  align-self: center;
+}
+
+.login-form {
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button {
+    width: 100%;
+    background: #eee;
+    height: 20px;
+  }
+  .hint {
+    color: #999;
+  }
+}

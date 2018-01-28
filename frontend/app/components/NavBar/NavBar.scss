@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 50px;
+  width: 90%;
+  padding: 10px 20px;
+  border: 1px solid rgba(35, 35, 35, 0.92);
+  border-radius: 5px;
+
+  a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #000;
+    &:visited {
+      color: #000;
+    }
+    &:not(:last-child) {
+      border-right: 1px solid rgba(50, 50, 50, 0.5);
+    }
+    &.active, &:hover {
+      color: #666;
+      text-decoration: underline;
+    }
+  }
+}
