@@ -3,6 +3,10 @@
 This app demonstrates how to setup a React / expressjs setup with JWT Authentication.
 This is the source code for my upcoming talk at the Webmontag Kassel.
 
+## Slides
+
+The slides can be accessed [here](https://docs.google.com/presentation/d/1q2a6LcszC7fHgvMlCDVhuILMBvPtaCTGpYfAw3VL7uE/edit?usp=sharing)
+
 ## Tech-Stack
 
 ### Frontend
